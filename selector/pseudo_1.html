@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        a:link{
+            color:black
+            /* 방문 안 한 링크 */
+        }
+        a:visited{
+            color:red;
+            /* visited는 제한적으로 속성 사용 가능 */
+        }
+        a:hover{
+            color:yellow;
+            /* 위에 커서 올리고 있을 때 실행 / a태그 말고 다른 태그에서도 활용 가능 */
+        }
+        a:active{
+            color:green;
+            /* 클릭중일 때 실행 */
+        }
+        a:focus{
+            color:skyblue;
+            /* 가장 뒤에 넣는 것이 좋다 */
+        }
+
+        input:focus{
+            background-color: skyblue;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://opentutorials.org">visited</a>
+    <a href="https://a.a">not visited</a>
+    <input type="text">
+</body>
+</html>
