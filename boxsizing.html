@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        *{
+            box-sizing: border-box; /*기본 값은 content-box. border-box로 변경하면 border를 기준으로 너비,높이를 설정*/
+        }
+        /* 전체에 border-box를 걸어줌으로서 수월해짐 */
+        div{
+            margin:10px;
+            width: 150px;
+            /* box-sizing: border-box; */
+        }
+        #s{
+            border: 5px solid powderblue
+        }
+        #l{
+            border: 50px solid powderblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="s">Hello</div>
+    <div id="l">Hello</div>
+</body>
+</html>
